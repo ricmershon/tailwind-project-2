@@ -26,6 +26,18 @@
 	@apply absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70;
 }
 
+.menu-item {
+	@apply hover:border-b hover:border-blue-50 pb-1;
+}
+
+.mobile-menu-item {
+	@apply hover:text-pink-500;
+}
+
+.footer-item {
+	@apply group-hover:border-b group-hover:border-blue-50;
+}
+
 #hero {
 	background-repeat: no-repeat;
 	background-size: cover;
